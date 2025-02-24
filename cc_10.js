@@ -33,3 +33,33 @@ class Order {
 const order1 = new Order(501, prod1, 2);
 console.log(order1.getOrderDetails());
 console.log(prod1.getDetails());
+
+//Task 3: Creating an Inventory Class
+class Inventory {
+    constructor(products) {
+    this.products = [];
+    this.Orders = [];
+}
+    addProduct(product) {
+        this.products.push(product);
+    }
+    listProducts() {
+        this.products.forEach(prod => console.log(prod.addProduct()));
+    }
+        placeOrder(orderID, product, quantity) {
+            if (stock >= 0, order =+);
+        }
+    }
+    listOrders() {
+        console.log(`Order ID: ${this.orderID}, Product ${this.Product}, Quantity: ${this.Quantity}, Total Price $${this.Price * this.Quantity}`);
+    }
+}
+const inventory = new Inventory();
+inventory.addProduct(prod1);
+inventory.listProducts();
+
+//Task 4: Implementing Order Management
+//See above Changes
+inventory.placeOrder(601, prod1, 2);
+inventory.listOrders();
+console.log(prod1.getDetails());
